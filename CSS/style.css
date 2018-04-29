@@ -1,0 +1,277 @@
+/*
+Theme Name: GL Organisation
+Theme URI: http://clafleur.lyceestvincent.fr/
+Author: the best feral druid
+Author URI: http://clafleur.lyceestvincent.fr/
+Description: Special GL Organisation Theme !
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: blog, two-columns, left-sidebar, accessibility-ready, custom-background, custom-colors, custom-header, custom-logo, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, threaded-comments, translation-ready
+Text Domain: twentyfifteen
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+
+/* ---------------------- CODE CELIA ---------------------- */
+
+/* Général */
+
+.container-fluid, .col-md-12 {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    line-height: 2;
+}
+header{
+    padding: 0 5%;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    z-index: 999999;
+    position: absolute;
+}
+.contact, .about, .terms{
+    background-image: url('../img/bg-about.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+.terms{
+    background-image: url('../img/bg-terms.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+.page404{
+    background-image: url('../img/bg-404.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+.navbar .logo{
+    position: relative;
+    margin-right: 50px;
+    float: left;
+}
+.navbar{
+    margin-bottom: 20px;
+    height: 20%!important;
+}
+.navbar-header a{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 40px;
+}
+.glo-title{
+    color: white;
+    text-transform: uppercase;
+    font-size: 2em;
+    line-height: 1.1em;
+    text-shadow: 1px 1px 5px #343b48;
+}
+.navbar-brand img{
+    margin: 0 20px;
+}
+.navbar ul{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-bottom: 50px;
+}
+.navbar ul li a{
+    color: white;
+    transition: all 0.5s ease;
+    font-weight: 500;
+    padding: 0;
+    padding: 0 10px;
+    color: white;
+    border-right: 1px solid white;
+    line-height: 1em;
+    font-size: 1.5rem;
+    text-shadow: 1px 1px 5px #343b48;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.navbar ul li a:hover, .navbar ul li a:active, .navbar ul li a:focus{
+    background: none;
+    color: #a11a25;
+}
+.navbar ul li:last-child a{
+    border-right: none;
+}
+.menu{
+    margin-right: 20px;
+    padding-bottom: 47px;   
+    width: auto;
+}
+.accroche{
+    text-align: center;
+    width: 50%;
+    font-size: 25px;
+    margin:auto;
+}
+footer{
+    margin: 50px auto 10px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 1.2rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+footer a{
+    color : white;
+}
+footer a:hover, footer a:active, footer a:focus{
+    color : white;
+}
+.footerText{
+    padding: 5px;
+}
+.sep{
+    padding: 5px;
+}
+.buttonGLO{
+    margin-top: 60px;
+    display: inline-block;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 0 !important;
+    color: white;
+    text-transform: uppercase;
+    line-height: 40px;
+    width: 300px;
+    text-align: center;
+    font-size: 15x;
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+.buttonGLO:hover{
+    color: white;
+    text-decoration: none;
+    border-color: #9d1a24;
+    background-color: #9d1a24;
+}
+
+
+
+/* Index */
+.highlight{
+    color: #a11a25;
+}
+.containerHome{
+    width: 100%;
+    top: 0;
+}
+.containerHome h1{
+    text-align: center;
+    font-family: "Playfair Display", sans-serif;
+    text-transform: uppercase;
+}
+.carousel-indicators li {
+    background-color: #343b48;
+    border: 1px solid #343b48;
+}
+.carousel-indicators .active {
+    background-color: #a11a25;
+    border: 1px solid #a11a25;
+}
+.glyphicon {
+    top: 50%;
+}
+.carousel .item img{
+    max-height:2000px;
+}
+
+
+/* About */
+.containerAbout{
+    margin-top: 42%;
+}
+.containerAbout h1, .containerContact h1{
+    text-align: center;
+    font-family: "Playfair Display", sans-serif;
+}
+.page-template-page-about, .page-template-page-contact{
+background-image: url('images/bg-about.jpg');
+background-repeat: no-repeat;
+}
+
+
+
+/* Contact */
+.containerContact{
+    margin-top: 9%;
+    text-align: center;
+    background: linear-gradient(to top, black 0%, rgba(255, 0, 0, 0));
+}
+.containerContact p{
+    font-size: 19px;
+    margin-top: 20px;
+    line-height: 1;
+}
+form{
+    margin-top: 50px;
+}
+.containerContact h1{
+    text-transform: uppercase;
+    margin-top: 200px;
+}
+.formRequired{
+    font-family: "Playfair Display", serif;
+    font-style: italic;
+    opacity: 0.5;
+    font-size: 15px!important;
+    text-align: left;
+    margin: 0 17px;
+}
+label{
+    display: block;
+    text-align: left;
+    margin-top: 10px;
+}
+input{ 
+    width: 100%;
+}
+input, textarea{
+    color: black;
+}
+div #message{
+    display: block;
+}
+form{
+    max-width: 50%;
+    margin: 0 auto;
+}
+form p {
+    display: block;
+}
+form button{
+    display: block;
+}
+textarea{
+    max-width:97%;
+    min-width:97%;
+    min-height: 120px;
+}
+.divTextarea{
+    margin: 0 17px;
+}
+.row {
+    margin-right: 0px; 
+    margin-left: 0px;
+}
+
+
+/* Page 404 */
+.error404{
+    background-image: url('images/bg-404.jpg');
+    background-repeat: no-repeat;
+}
+.errorPage404{
+    margin: auto;
+}
