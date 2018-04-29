@@ -37,7 +37,90 @@ require_once('includes/header.php');
   </div>
 
   <h1>Musical Comedies</h1>
-</div>
+ <div id="mosaique" class="container">
+            <div class="row">
+                <div class="overlay-image col-xs-12 col-sm-4 col-md-2 col-md-offset-1">
+                    <a href="#">
+                        <img class="img-responsive" src="img/roi-soleil.jpg">
+                        <div class="hover">
+                           <span class="btn">Read more</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="overlay-image col-xs-12 col-sm-4 col-md-2">
+                    <a href="#">
+                        <img class="img-responsive" src="img/roi-soleil.jpg" />
+                        <div class="hover">
+                           <span class="btn">Read more</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="overlay-image col-xs-12 col-sm-4 col-md-2">
+                    <a href="#">
+                        <img class="img-responsive" src="img/roi-soleil.jpg" />
+                        <div class="hover">
+                           <span class="btn">Read more</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="overlay-image col-xs-12 col-sm-4 col-md-2">
+                    <a href="#">
+                        <img class="img-responsive" src="img/roi-soleil.jpg" />
+                        <div class="hover">
+                           <span class="btn">Read more</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="overlay-image col-xs-12 col-sm-4 col-md-2">
+                    <a href="#">
+                        <img class="img-responsive" src="img/roi-soleil.jpg" />
+                        <div class="hover">
+                           <span class="btn">Read more</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="overlay-image col-xs-12 col-sm-4 col-md-2 col-md-offset-1">
+                    <a href="#">
+                        <img class="img-responsive" src="img/roi-soleil.jpg" />
+                        <div class="hover">
+                           <span class="btn">Read more</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="overlay-image col-xs-12 col-sm-4 col-md-2">
+                    <a href="#">
+                        <img class="img-responsive" src="img/roi-soleil.jpg" />
+                        <div class="hover">
+                           <span class="btn">Read more</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="overlay-image col-xs-12 col-sm-4 col-md-2">
+                    <a href="#">
+                        <img class="img-responsive" src="img/roi-soleil.jpg"/>
+                        <div class="hover">
+                           <span class="btn">Read more</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="overlay-image col-xs-12 col-sm-4 col-md-2">
+                    <a href="#">
+                        <img class="img-responsive" src="img/roi-soleil.jpg" />
+                        <div class="hover">
+                           <span class="btn">Read more</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="overlay-image col-xs-12 col-sm-4 col-md-2">
+                    <a href="#">
+                        <img class="img-responsive" src="img/roi-soleil.jpg" />
+                        <div class="hover">
+                           <span class="btn">Read more</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
 
 <?php
 require_once('includes/footer.php');
