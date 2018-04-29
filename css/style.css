@@ -39,7 +39,6 @@ header {
 }
 
 .contact,
-.about,
 .terms {
     background-image: url('../img/bg-about.jpg');
     background-repeat: no-repeat;
@@ -227,7 +226,9 @@ footer a:focus {
 /* About */
 
 .containerAbout {
-    margin-top: 42%;
+    background: black;
+    position: relative;
+    width: 100%;
 }
 
 .containerAbout h1,
@@ -236,10 +237,101 @@ footer a:focus {
     font-family: "Playfair Display", sans-serif;
 }
 
-.page-template-page-about,
-.page-template-page-contact {
-    background-image: url('images/bg-about.jpg');
-    background-repeat: no-repeat;
+
+#backgroundAbout {
+    position: sticky;
+    top: 0;
+    left: 0;
+    height: 70vh;
+    max-height: 778px;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+#backgroundAbout img {
+    flex: 1 1 auto;
+    width: auto;
+    max-width: none;
+    object-fit: cover;
+}
+
+.accroche {
+    margin-bottom: 30px;
+    line-height: inherit;
+    color: #888;
+    display: block;
+}
+
+#content_about {
+    display: flex;
+    width: 100%;
+    position: relative;
+    max-width: 1320px;
+    padding: 0 20px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+#divRougeAbout p {
+    background: #510001;
+    font-family: "Playfair Display", serif;
+    font-style: italic;
+    text-align: center;
+    padding: 60px;
+    line-height: 1.2em;
+    font-size: 2.125rem;
+    color: white !important;
+    text-align: center;
+
+}
+
+
+#divTexteAbout {
+    padding-left: 60px;
+    font-family: "Roboto", Sans-serif;
+    font-weight: 400;
+    text-align: center;
+
+
+}
+
+#content_about p {
+    color: #888;
+    font-weight: 300;
+    margin: 0 0 20px;
+    display: block;
+    line-height: 1.8em;
+
+}
+
+#content_about ul {
+    margin: 0px;
+    column-count: 2;
+    column-gap: 80px;
+    -webkit-column-gap: 80px;
+    column-fill: balance;
+    margin-bottom: 20px;
+    color: #888;
+    list-style: disc;
+}
+
+@media screen and (max-width: 767px) {
+    #content_about {
+        display: inline-block;
+    }
+    #backgroundAbout {
+        height: 50vh;
+    }
+
+}
+
+@media screen and (min-width:767px) and (max-width: 1024px) {
+    #backgroundAbout {
+        height: 60vh;
+    }
+
 }
 
 
@@ -473,4 +565,5 @@ footer {
     text-transform: uppercase;
     position: relative;
     z-index: 999;
+
 }
