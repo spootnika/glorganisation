@@ -246,15 +246,16 @@ footer a:focus {
     max-height: 778px;
     display: flex;
     justify-content: center;
-
+    width: auto;
 
 }
 
 #backgroundAbout img {
     flex: 1 1 auto;
     width: auto;
-    max-width: none;
+    max-width: 100%;
     object-fit: cover;
+
 }
 
 .accroche {
