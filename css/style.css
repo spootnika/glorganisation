@@ -13,8 +13,6 @@ This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 */
 
-/* ---------------------- CODE CELIA ---------------------- */
-
 /* Général */
 
 .container-fluid,
@@ -198,7 +196,7 @@ footer a:focus {
     top: 0;
 }
 
-.containerHome h1 {
+.containerHome h1{
     text-align: center;
     font-family: "Playfair Display", sans-serif;
     text-transform: uppercase;
@@ -232,7 +230,8 @@ footer a:focus {
 }
 
 .containerAbout h1,
-.containerContact h1 {
+.containerContact h1, 
+.containerTerms h1{
     text-align: center;
     font-family: "Playfair Display", sans-serif;
 }
@@ -355,7 +354,7 @@ form {
     margin-top: 50px;
 }
 
-.containerContact h1 {
+.containerContact h1, .containerTerms h1 {
     text-transform: uppercase;
     margin-top: 200px;
 }
