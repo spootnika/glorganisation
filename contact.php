@@ -38,7 +38,7 @@
                     <div class="col-md-12 col-lg-12">
                         <p class="formRequired">All fields are required</p>
 
-                        <button class="buttonGLO" type="button" value="Submit">Submit</button>
+                        <button class="button" type="button" value="Submit">Submit</button>
                     </div>
                 </form>
             </div>

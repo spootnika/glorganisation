@@ -36,23 +36,20 @@ header {
     position: absolute;
 }
 
-.contact,
-.terms {
-    background-image: url('../img/bg-about.jpg');
+.contact, .terms, .page404 {
     background-repeat: no-repeat;
     background-size: 100% auto;
+}
+.contact{
+    background-image: url('../img/bg-about.jpg');
 }
 
 .terms {
     background-image: url('../img/bg-terms.jpg');
-    background-repeat: no-repeat;
-    background-size: 100% auto;
 }
 
 .page404 {
     background-image: url('../img/bg-404.jpg');
-    background-repeat: no-repeat;
-    background-size: 100% auto;
 }
 
 .navbar .logo {
@@ -158,29 +155,6 @@ footer a:focus {
 
 .sep {
     padding: 5px;
-}
-
-.buttonGLO {
-    margin-top: 60px;
-    display: inline-block;
-    background-color: transparent;
-    border: 1px solid white;
-    border-radius: 0 !important;
-    color: white;
-    text-transform: uppercase;
-    line-height: 40px;
-    width: 300px;
-    text-align: center;
-    font-size: 15x;
-    text-decoration: none;
-    transition: all 0.5s ease;
-}
-
-.buttonGLO:hover {
-    color: white;
-    text-decoration: none;
-    border-color: #9d1a24;
-    background-color: #9d1a24;
 }
 
 
