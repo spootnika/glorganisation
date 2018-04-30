@@ -45,6 +45,19 @@ header {
     .contact, .terms, .page404 {
         background-size: auto 80vh;
     }
+    header {
+        height: 15%;
+    }
+    .navbar-header a{
+        padding: 10px;
+    }
+    .navbar ul{ 
+        top: 45px;
+        position: absolute;
+    }
+    .navbar-brand img{
+      margin: -10px 5px!important;
+    }
 }
 
 @media screen and (max-width: 991px){
@@ -80,6 +93,19 @@ header {
     flex-direction: row;
     justify-content: space-around;
     padding: 40px;
+}
+.hideShow{
+    display: initial;
+}
+@media screen and (max-width: 991px){
+    .hideShow{
+        display: none;
+    }
+    .imgSize{
+        width: 60%;
+        height: auto;
+        resize: both;
+    }
 }
 
 .glo-title {

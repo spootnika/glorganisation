@@ -30,9 +30,9 @@
                         <!-- Logo -->
                         <a href="index.php" class="navbar-brand">
                             <div>
-                                <img src="img/logo_GL.png" alt="Logo GL Organisation">
+                                <img class="imgSize" src="img/logo_GL.png" alt="Logo GL Organisation">
                             </div>
-                            <div>
+                            <div class="collapse navbar-collapse">
                                 <span class="glo-title">
                                     International Agency
                                     <br><span class="highlight">for Live Shows</span>
@@ -40,7 +40,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="collapse navbar-collapse" id="myNavbar">
+                    <div class="" id="myNavbar">
                         <ul class="nav navbar-nav navbar-right">
                             <li>
                                 <a class="classScript" href="index.php">Home</a>

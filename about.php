@@ -4,7 +4,7 @@
 
     <div data-page="about" class="container-fluid">
         <div id="backgroundAbout">
-            <img class="img-responsive" height="778" src="img/bg-about.jpg">
+            <img class="img-responsive" src="img/bg-about.jpg">
         </div>
         <div class="containerAbout container">
             <h1>GL Organisation</h1>
