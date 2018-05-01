@@ -21,36 +21,44 @@ header {
     position: absolute;
 }
 
-.contact, .terms, .page404 {
+.contact,
+.terms,
+.page404 {
     background-repeat: no-repeat;
     background-size: 100% auto;
     background-position: top center;
 }
-@media screen and (max-width: 767px) and (max-width: 991px){
-    .contact, .terms, .page404 {
+
+@media screen and (max-width: 767px) and (max-width: 991px) {
+    .contact,
+    .terms,
+    .page404 {
         background-size: auto 80vh;
     }
     header {
         height: 15%;
     }
-    .navbar-header a{
+    .navbar-header a {
         padding: 10px;
     }
-    .navbar ul{ 
+    .navbar ul {
         top: 45px;
         position: absolute;
     }
-    .navbar-brand img{
-      margin: -10px 5px!important;
+    .navbar-brand img {
+        margin: -10px 5px!important;
     }
 }
 
-@media screen and (max-width: 991px){
-    .contact, .terms, .page404 {
+@media screen and (max-width: 991px) {
+    .contact,
+    .terms,
+    .page404 {
         background-size: auto 85vh;
     }
 }
-.contact{
+
+.contact {
     background-image: url('../img/bg-about.jpg');
 }
 
@@ -79,14 +87,16 @@ header {
     justify-content: space-around;
     padding: 40px;
 }
-.hideShow{
+
+.hideShow {
     display: initial;
 }
-@media screen and (max-width: 991px){
-    .hideShow{
+
+@media screen and (max-width: 991px) {
+    .hideShow {
         display: none;
     }
-    .imgSize{
+    .imgSize {
         width: 60%;
         height: auto;
         resize: both;
@@ -193,7 +203,7 @@ footer a:focus {
     top: 0;
 }
 
-.containerHome h1{
+.containerHome h1 {
     text-align: center;
     font-family: "Playfair Display", sans-serif;
     text-transform: uppercase;
@@ -227,8 +237,8 @@ footer a:focus {
 }
 
 .containerAbout h1,
-.containerContact h1, 
-.containerTerms h1{
+.containerContact h1,
+.containerTerms h1 {
     text-align: center;
     font-family: "Playfair Display", sans-serif;
 }
@@ -289,7 +299,7 @@ footer a:focus {
     padding-left: 60px;
     font-family: "Roboto", Sans-serif;
     font-weight: 400;
-    text-align: center;
+    height: 100%;
 
 
 }
@@ -303,20 +313,13 @@ footer a:focus {
 
 }
 
-#content_about ul {
-    margin: 0px;
-    column-count: 2;
-    column-gap: 80px;
-    -webkit-column-gap: 80px;
-    column-fill: balance;
-    margin-bottom: 20px;
-    color: #888;
-    list-style: disc;
-}
 
 @media screen and (max-width: 767px) {
     #content_about {
         display: inline-block;
+    }
+    #divTexteAbout {
+        padding-left: 0px;
     }
     #backgroundAbout {
         height: 50vh;
@@ -351,7 +354,8 @@ form {
     margin-top: 50px;
 }
 
-.containerContact h1, .containerTerms h1 {
+.containerContact h1,
+.containerTerms h1 {
     text-transform: uppercase;
     margin-top: 200px;
 }
@@ -568,11 +572,12 @@ footer {
 
 /* Terms */
 
-.firstLineTerms{
+.firstLineTerms {
     font-weight: bold;
     display: block;
-    padding : 15px 0;
+    padding: 15px 0;
 }
-.containerTerms p{
+
+.containerTerms p {
     text-align: justify;
 }

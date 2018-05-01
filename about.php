@@ -16,21 +16,12 @@
                     <p>GL Organisation's clients benefit from its network of producers and promoters all over the world.</p>
                 </div>
                 <div class="divContent" id="divTexteAbout" class="col-xs-12 col-sm-9 col-md-9 col-lg-9">
-                    <p>GL Organisation is an established theatrical distribution company that provides an international circuit for booking and licensing shows in markets all over the world.</p>
-                    <p>International business experience includes developing, producing and promoting shows worldwide.<br>GL Organisation specializes in :</p>
-                    <ul>
-                        <li>Company management </li>
-                        <li>Marketing and strategy implementation </li>
-                        <li>Corporate financial structuring and management </li>
-                        <li>Tour business strategy </li>
-                        <li>Operational planning</li>
-                        <li>Financial modelling </li>
-                        <li>Budgeting </li>
-                        <li>Production general management </li>
-                        <li>Contract negotiation</li>
-                        <li> Legal affairs </li>
-                    </ul>
-                    <p>Founded in 2005 by Guillaume Lagorce, GL Organisation has represented shows such as : Notre-Dame de Paris, Romeo & Juliet, The Ten Commandments, The Sun King, The Little Prince, Ben-Hur stadium show, Tommy (The Who), Scooby Doo, Mozart the Rock Opera, 1789 Les amants de la Bastille, Mistinguett, The Legend of King Arthur, Summer 44, Oliver Twist, The Chorus…</p>
+                    <p>GL Organisation represents or has represented shows such as :<br>Notre-Dame de Paris, Romeo & Juliet, The Ten Commandments, The Sun King, The Little Prince, Ben-Hur stadium show, Tommy (The Who), Scooby Doo, Mozart the Rock Opera, 1789 Les amants de la Bastille, Mistinguett, The Legend of King Arthur, Oliver Twist…<br> GL Organisation also represents some of the major exhibitions.<br>International business experience includes developing, producing and promoting shows worldwide.</p>
+
+
+                    <p>Other activities of GL Organisation include: Company management, international environment, marketing and strategy, entertainment producer, marketing strategy and implementation, tour business strategy and overseeing booking, corporate financial structuring and management, operational planning, financial modelling, budgeting and forecasting, production general management, contract negotiation and legal affairs.</p>
+
+
                 </div>
             </div>
         </div>
