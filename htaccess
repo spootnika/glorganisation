@@ -1,1 +1,2 @@
 ErrorDocument 404 /404.php
+#à renommer en .htacess une fois sur filezilla pour une redirection vers la page 404 en cas d'erreur 404 (impossible à faire depuis windows)
