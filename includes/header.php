@@ -40,7 +40,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="" id="myNavbar">
+                    <div id="myNavbar">
                         <ul class="nav navbar-nav navbar-right">
                             <li>
                                 <a class="classScript" href="index.php">Home</a>
