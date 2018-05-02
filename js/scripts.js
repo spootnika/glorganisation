@@ -1,7 +1,7 @@
 $(document).ready(function () {
 
 
-    $(function(){
+    $(function () {
         var page = $('body > div').data("page");
 
         $('body').addClass(page);
