@@ -1,0 +1,4 @@
+objet-fit:cover
+
+position:absolute
+top:79%
