@@ -730,7 +730,7 @@ h3 {
 
 }
 
-#gallery button {
+#gallery .button {
     font-weight: bold;
     position: absolute;
     left: 50%;

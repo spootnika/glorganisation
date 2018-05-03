@@ -24,7 +24,65 @@
         </div>
         <div id="gallery">
             <img src="imgRoiArthur/%C2%A9AnthonyGhnassia-31.jpg">
-            <button class="button">VIEW ALL GALLERY</button>
+            <button class="button" type="button" data-toggle="modal" data-target="#myModal">VIEW ALL GALLERY</button>
+
+            <div class="modal fade" id="myModal" role="dialog">
+                <div class="modal-dialog">
+                
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Modal Header</h4>
+                    </div>
+                    <div class="modal-body">
+                        <div id="my_carousel" class="carousel slide" data-ride="carousel">
+                            <!-- Bulles -->
+                            <ol class="carousel-indicators">
+                                <li data-target="#my_carousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#my_carousel" data-slide-to="1"></li>
+                                <li data-target="#my_carousel" data-slide-to="2"></li>
+                            </ol>
+                            <!-- Slides -->
+                            <div class="carousel-inner">
+                            <!-- Page 1 -->
+                                <div class="item active">  
+                                    <div class="carousel-page">
+                                        <img src="/images/bootstrap.png" class="img-responsive" style="margin:0px auto;" />
+                                    </div> 
+                                    <div class="carousel-caption">Page 1 de présentation</div>
+                                </div>   
+                                <!-- Page 2 -->
+                                <div class="item"> 
+                                    <div class="carousel-page">
+                                        <img src="/images/twitter-bootstrap.jpg" class="img-responsive img-rounded" style="margin:0px auto;"  />
+                                    </div> 
+                                    <div class="carousel-caption">Page 2 de présentation</div>
+                                </div>  
+                                <!-- Page 3 -->
+                                <div class="item">  
+                                    <div class="carousel-page">
+                                        <img src="/images/tablette.png" class="img-responsive img-rounded" style="margin:0px auto;max-height:100%;"  />
+                                    </div>  
+                                    <div class="carousel-caption">Page 2 de présentation</div>
+                                </div>     
+                            </div>
+                            <!-- Contrôles -->
+                            <a class="left carousel-control" href="#my_carousel" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left"></span>
+                            </a>
+                            <a class="right carousel-control" href="#my_carousel" data-slide="next">
+                                <span class="glyphicon glyphicon-chevron-right"></span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+                
+                </div>
+            </div>
 
         </div>
 
