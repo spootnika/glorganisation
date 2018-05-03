@@ -585,8 +585,7 @@ footer {
 
 /* Page Spectacle */
 
-#imageSpectacle img {
-
+#imageSpectacle {
     top: 0;
     left: 0;
     display: flex;
@@ -594,20 +593,22 @@ footer {
     width: 100%;
     max-height: 768px;
     height: 90vh;
-
-
+    background-image: url("../imgRoiArthur/%C2%A9AnthonyGhnassia-22.jpg");
+    background-size: cover;
+    background-position: bottom;
 }
 
 #navigationSpectacle {
+    display: none;
     height: 75px;
     line-height: 75px;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.5);
-    z-index: 99;
-    top: -75px;
-
-
+    align-self: flex-end;
+    /* met la nav en bas de l'image*/
 }
+
+
 
 
 #navigationSpectacle .nav-box.previous {
@@ -654,13 +655,85 @@ footer {
     position: relative;
 }
 
+#containerSpectacle p {
+    color: #888;
+}
+
 #containerSpectacle {
     text-align: center;
 }
 
+#containerSpectacle .row .col-sm-5.col-md-4.col-lg-3 {
+    padding-left: 0px !important;
+}
 
 
 .paragrapheIntroSpectacle {
 
     text-align: left;
+}
+
+.paragrapheSpectacle2 p {
+    margin: 0;
+    text-align: left;
+}
+
+@media screen and (min-width: 767px) {
+    .paragrapheIntroSpectacle {
+        padding-left: 30px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    #containerSpectacle img {
+        padding-bottom: 30px;
+    }
+}
+
+h2 {
+    column-span: all;
+    text-transform: uppercase;
+    font-family: "Playfair Display", serif;
+}
+
+h3 {
+    font-family: "Playfair Display", serif;
+}
+
+.paragrapheSpectacle3 .row ul li {
+    list-style: none;
+    text-align: left;
+}
+
+
+/*gallery spectacle*/
+
+#gallery {
+    margin-bottom: 40px;
+    margin-top: 40px;
+    clear: both;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+
+}
+
+#gallery img {
+    opacity: 0.7;
+    transform: scale(1);
+    transition: all 0.8s ease-in-out;
+    width: 100%!important;
+    display: flex;
+    max-height: 500px;
+    object-fit: scale-down;
+    text-align: cover;
+
+}
+
+#gallery button {
+    font-weight: bold;
+    position: absolute;
+    left: 50%;
+    margin-left: -150px;
+    bottom: 20.42%;
 }
