@@ -25,67 +25,82 @@
         <div id="gallery">
             <img src="imgRoiArthur/%C2%A9AnthonyGhnassia-31.jpg">
             <button class="button" type="button" data-toggle="modal" data-target="#myModal">VIEW ALL GALLERY</button>
-
             <div class="modal fade" id="myModal" role="dialog">
                 <div class="modal-dialog">
-                
-                <!-- Modal content-->
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        <h4 class="modal-title">Modal Header</h4>
-                    </div>
-                    <div class="modal-body">
-                        <div id="my_carousel" class="carousel slide" data-ride="carousel">
-                            <!-- Bulles -->
-                            <ol class="carousel-indicators">
-                                <li data-target="#my_carousel" data-slide-to="0" class="active"></li>
-                                <li data-target="#my_carousel" data-slide-to="1"></li>
-                                <li data-target="#my_carousel" data-slide-to="2"></li>
-                            </ol>
-                            <!-- Slides -->
-                            <div class="carousel-inner">
-                            <!-- Page 1 -->
-                                <div class="item active">  
-                                    <div class="carousel-page">
-                                        <img src="/images/bootstrap.png" class="img-responsive" style="margin:0px auto;" />
-                                    </div> 
-                                    <div class="carousel-caption">Page 1 de présentation</div>
-                                </div>   
-                                <!-- Page 2 -->
-                                <div class="item"> 
-                                    <div class="carousel-page">
-                                        <img src="/images/twitter-bootstrap.jpg" class="img-responsive img-rounded" style="margin:0px auto;"  />
-                                    </div> 
-                                    <div class="carousel-caption">Page 2 de présentation</div>
-                                </div>  
-                                <!-- Page 3 -->
-                                <div class="item">  
-                                    <div class="carousel-page">
-                                        <img src="/images/tablette.png" class="img-responsive img-rounded" style="margin:0px auto;max-height:100%;"  />
-                                    </div>  
-                                    <div class="carousel-caption">Page 2 de présentation</div>
-                                </div>     
-                            </div>
-                            <!-- Contrôles -->
-                            <a class="left carousel-control" href="#my_carousel" data-slide="prev">
-                                <span class="glyphicon glyphicon-chevron-left"></span>
-                            </a>
-                            <a class="right carousel-control" href="#my_carousel" data-slide="next">
-                                <span class="glyphicon glyphicon-chevron-right"></span>
-                            </a>
+                    <!-- Modal content-->
+                    <div class="container" id="containerModal">
+                        <div class="head">
+                            <p>The legend of King Arthur</p>
+                            <button type="button" class="close"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 252 252" style="fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,252v-252h252v252z" fill="none"></path><path d="M0,126c0,-69.58788 56.41212,-126 126,-126c69.58788,0 126,56.41212 126,126c0,69.58788 -56.41212,126 -126,126c-69.58788,0 -126,-56.41212 -126,-126zM126,236.88c61.23733,0 110.88,-49.64267 110.88,-110.88c0,-61.23733 -49.64267,-110.88 -110.88,-110.88c-61.23733,0 -110.88,49.64267 -110.88,110.88c0,61.23733 49.64267,110.88 110.88,110.88z" fill="#ffffff"></path><g fill="#ffffff"><g id="surface1"><path d="M132.3,142.46515l-48.20164,48.20164l-16.46515,-16.46515l48.20165,-48.20164l-48.20165,-48.20164l16.46515,-16.46515l48.20164,48.20165l48.20164,-48.20165l16.46515,16.46515l-48.20164,48.20164l48.20164,48.20164l-16.46515,16.46515z"></path><path d="M180.50164,64.13942l13.65894,13.65894l-48.20165,48.20164l48.20165,48.20164l-13.65894,13.65894l-48.20164,-48.20165l-48.20164,48.20165l-13.65894,-13.65894l48.20164,-48.20164l-48.20164,-48.20164l13.65894,-13.65894l48.20164,48.20164l48.20164,-48.20164M180.50164,58.527l-48.20164,48.20164l-48.20164,-48.20164l-19.27136,19.27136l48.20164,48.20164l-48.20164,48.20164l19.27136,19.27136l48.20164,-48.20164l48.20164,48.20164l19.27136,-19.27136l-48.20164,-48.20164l48.20164,-48.20164z"></path></g></g><path d="M126,252c-69.58788,0 -126,-56.41212 -126,-126v0c0,-69.58788 56.41212,-126 126,-126v0c69.58788,0 126,56.41212 126,126v0c0,69.58788 -56.41212,126 -126,126z" fill="none"></path><path d="M126,236.88c-61.23733,0 -110.88,-49.64267 -110.88,-110.88v0c0,-61.23733 49.64267,-110.88 110.88,-110.88v0c61.23733,0 110.88,49.64267 110.88,110.88v0c0,61.23733 -49.64267,110.88 -110.88,110.88z" fill="none"></path></g></svg></button>
                         </div>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        <div class="modal-body">
+                            <div id="my_carousel" class="carousel slide">
+                                <!-- Slides -->
+                                <div class="carousel-inner">
+                                    <!-- Page 1 -->
+                                    <div class="item active" data-slide-to="0">
+                                        <div class="carousel-page">
+                                            <img src="imgRoiArthur/%C2%A9AnthonyGhnassia-11.jpg"/>
+                                        </div>
+                                    </div>
+                                    <!-- Page 2 -->
+                                    <div class="item" data-slide-to="1">
+                                        <div class="carousel-page">
+                                            <img src="imgRoiArthur/%C2%A9AnthonyGhnassia-122.jpg" />
+                                        </div>
+                                    </div>
+                                    <!-- Page 3 -->
+                                    <div class="item" data-slide-to="2">
+                                        <div class="carousel-page">
+                                            <img src="imgRoiArthur/%C2%A9AnthonyGhnassia-146.jpg" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Contrôles -->
+                                <a class="left carousel-control" href="#my_carousel" data-slide="prev">
+                                    <span class="glyphicon glyphicon-chevron-left"></span>
+                                </a>
+                                <a class="right carousel-control" href="#my_carousel" data-slide="next">
+                                    <span class="glyphicon glyphicon-chevron-right"></span>
+                                </a>
+                            </div>   
+                        </div>  
                     </div>
                 </div>
-                
-                </div>
+                <div class="row">
+                    <div class="col-md-2 col-lg-2">
+                        <a href="images/image1.jpg" class="thumbnail" data-gallery="gallery1">
+                             <img src="imgRoiArthur/%C2%A9AnthonyGhnassia-11.jpg" />
+                        </a>
+                    </div>
+                    <div class="col-md-2 col-lg-2">
+                        <a href="images/image2.jpg" class="thumbnail" data-gallery="gallery1">
+                            <img src="imgRoiArthur/%C2%A9AnthonyGhnassia-122.jpg">
+                        </a>
+                    </div>
+                    <div class="col-md-2 col-lg-2">
+                        <a href="images/image3.jpg" class="thumbnail" data-gallery="gallery2">
+                            <img src="imgRoiArthur/%C2%A9AnthonyGhnassia-146.jpg" >
+                        </a>
+                    </div>
+                    <div class="col-md-2 col-lg-2">
+                        <a href="images/image1.jpg" class="thumbnail" data-gallery="gallery1">
+                          <img src="imgRoiArthur/%C2%A9AnthonyGhnassia-11.jpg" />
+                        </a>
+                    </div>
+                    <div class="col-md-2 col-lg-2">
+                        <a href="images/image2.jpg" class="thumbnail" data-gallery="gallery1">
+                            <img src="imgRoiArthur/%C2%A9AnthonyGhnassia-122.jpg">
+                        </a>
+                    </div>        
+                    <div class="col-md-2 col-lg-2">
+                        <a href="images/image3.jpg" class="thumbnail" data-gallery="gallery2">
+                            <img src="imgRoiArthur/%C2%A9AnthonyGhnassia-146.jpg" >
+                        </a>
+                    </div>               
+                </div>                    
             </div>
-
         </div>
-
         <div class="paragrapheSpectacle2">
             <h2>The Story</h2>
             <hr width="10%">
