@@ -761,8 +761,8 @@ h3 {
 
 .close {
     position: absolute;
-    top: 20px;
-    right: 40px;
+    top: 21px;
+    right: 6px;
     background-color: transparent;
     color: white;
     font-size: 2.25rem;
