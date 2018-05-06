@@ -7,20 +7,14 @@
 
     <!--JQuery-->
     <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.js"></script>
-    
-
-
-
     <!-- Bootstrap -->
     <script src="js/bootstrap.min.js"></script>
     <link href="css/bootstrap.css" rel="stylesheet">
-
+    <script src="js/jssor.slider-27.1.0.min.js"></script>
     <script src="js/scripts.js"></script>
     <link rel="icon" type="image/png" sizes="16x16" href="img/favicon.png">
-
     <link rel="stylesheet" href="css/style.css" type="text/css" />
     <title>GL Organisation</title>
-
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
