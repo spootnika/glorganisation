@@ -34,10 +34,10 @@
                             <button type="button" class="close" data-dismiss="modal"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 252 252" style="fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,252v-252h252v252z" fill="none"></path><path d="M0,126c0,-69.58788 56.41212,-126 126,-126c69.58788,0 126,56.41212 126,126c0,69.58788 -56.41212,126 -126,126c-69.58788,0 -126,-56.41212 -126,-126zM126,236.88c61.23733,0 110.88,-49.64267 110.88,-110.88c0,-61.23733 -49.64267,-110.88 -110.88,-110.88c-61.23733,0 -110.88,49.64267 -110.88,110.88c0,61.23733 49.64267,110.88 110.88,110.88z" fill="#ffffff"></path><g fill="#ffffff"><g id="surface1"><path d="M132.3,142.46515l-48.20164,48.20164l-16.46515,-16.46515l48.20165,-48.20164l-48.20165,-48.20164l16.46515,-16.46515l48.20164,48.20165l48.20164,-48.20165l16.46515,16.46515l-48.20164,48.20164l48.20164,48.20164l-16.46515,16.46515z"></path><path d="M180.50164,64.13942l13.65894,13.65894l-48.20165,48.20164l48.20165,48.20164l-13.65894,13.65894l-48.20164,-48.20165l-48.20164,48.20165l-13.65894,-13.65894l48.20164,-48.20164l-48.20164,-48.20164l13.65894,-13.65894l48.20164,48.20164l48.20164,-48.20164M180.50164,58.527l-48.20164,48.20164l-48.20164,-48.20164l-19.27136,19.27136l48.20164,48.20164l-48.20164,48.20164l19.27136,19.27136l48.20164,-48.20164l48.20164,48.20164l19.27136,-19.27136l-48.20164,-48.20164l48.20164,-48.20164z"></path></g></g><path d="M126,252c-69.58788,0 -126,-56.41212 -126,-126v0c0,-69.58788 56.41212,-126 126,-126v0c69.58788,0 126,56.41212 126,126v0c0,69.58788 -56.41212,126 -126,126z" fill="none"></path><path d="M126,236.88c-61.23733,0 -110.88,-49.64267 -110.88,-110.88v0c0,-61.23733 49.64267,-110.88 110.88,-110.88v0c61.23733,0 110.88,49.64267 110.88,110.88v0c0,61.23733 -49.64267,110.88 -110.88,110.88z" fill="none"></path></g></svg></button>
                         </div>
 
-                <div id="jssor_1" style="position:relative;margin:0 auto;top:0px;left:0px;width:980px;height:480px;overflow:hidden;visibility:hidden;">
+                <div id="jssor_1" style="position:relative;margin:0 auto;top:0px;left:0px;width:980px;height:800px;overflow:hidden;visibility:hidden;">
 
 
-                    <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:980px;height:380px;overflow:hidden;">
+                    <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:980px;height:500px;overflow:hidden;">
                         <div data-p="170.00">
                             <img data-u="image" src="imgRoiArthur/%C2%A9AnthonyGhnassia-11.jpg" />
                             <img data-u="thumb" src="imgRoiArthur/%C2%A9AnthonyGhnassia-11.jpg" />
@@ -108,9 +108,9 @@
                         </div>
                     </div>
                     <!-- Thumbnail Navigator -->
-                    <div data-u="thumbnavigator" class="jssort101" style="position:absolute;left:0px;bottom:0px;width:980px;height:100px;background-color:#000;" data-autocenter="1" data-scale-bottom="0.75">
+                    <div data-u="thumbnavigator" class="jssort101" style="position:absolute;left:0px;bottom:0px;width:980px;height:300px;background-color:#000;" data-autocenter="1" data-scale-bottom="0.75">
                         <div data-u="slides">
-                            <div data-u="prototype" class="p" style="width:190px;height:90px;">
+                            <div data-u="prototype" class="p" style="width:250px;height:150px;">
                                 <div data-u="thumbnailtemplate" class="t"></div>
                                 <svg viewbox="0 0 16000 16000" class="cv">
                         <circle class="a" cx="8000" cy="8000" r="3238.1"></circle>
@@ -121,14 +121,14 @@
                         </div>
                     </div>
                     <!-- Arrow Navigator -->
-                    <div data-u="arrowleft" class="jssora106" style="width:55px;height:55px;top:162px;left:30px;" data-scale="0.75">
+                    <div data-u="arrowleft" class="jssora106" style="width:55px;height:55px;top:250px;left:30px;" data-scale="0.75">
                         <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
                 <circle class="c" cx="8000" cy="8000" r="6260.9"></circle>
                 <polyline class="a" points="7930.4,5495.7 5426.1,8000 7930.4,10504.3 "></polyline>
                 <line class="a" x1="10573.9" y1="8000" x2="5426.1" y2="8000"></line>
             </svg>
                     </div>
-                    <div data-u="arrowright" class="jssora106" style="width:55px;height:55px;top:162px;right:30px;" data-scale="0.75">
+                    <div data-u="arrowright" class="jssora106" style="width:55px;height:55px;top:250px;right:30px;" data-scale="0.75">
                         <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
                 <circle class="c" cx="8000" cy="8000" r="6260.9"></circle>
                 <polyline class="a" points="8069.6,5495.7 10573.9,8000 8069.6,10504.3 "></polyline>
